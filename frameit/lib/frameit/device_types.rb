@@ -124,7 +124,7 @@ module Frameit
     IPHONE_12_PRO ||= Frameit::Device.new("iphone-12-pro", "Apple iPhone 12 Pro", 10, [[1170, 2532], [2532, 1170]], 460, Color::SPACE_GRAY, Platform::IOS)
     IPHONE_12_PRO_MAX ||= Frameit::Device.new("iphone12-pro-max", "Apple iPhone 12 Pro Max", 10, [[1284, 2778], [2778, 1284]], 458, Color::GRAPHITE, Platform::IOS)
     IPHONE_12_MINI ||= Frameit::Device.new("iphone-12-mini", "Apple iPhone 12 Mini", 10, [[1125, 2436], [2436, 1125]], 476, Color::BLACK, Platform::IOS)
-    IPAD_10_2 ||= Frameit::Device.new("ipad-10-2", "Apple iPad 10.2", 1, [[1620, 2160], [2160, 1620]], 264, Color::SPACE_GRAY, Platform::IOS)
+    IPAD_10_2 ||= Frameit::Device.new("ipad-10-2", "Apple iPad 10.2", 1, [[1668, 2224], [2224, 1668]], 264, Color::SPACE_GRAY, Platform::IOS)
     IPAD_AIR_2 ||= Frameit::Device.new("ipad-air-2", "Apple iPad Air 2", 1, [[1536, 2048], [2048, 1536]], 264, Color::SPACE_GRAY, Platform::IOS, Deliver::AppScreenshot::ScreenSize::IOS_IPAD)
     IPAD_AIR_2019 ||= Frameit::Device.new("ipad-air-2019", "Apple iPad Air (2019)", 2, [[1668, 2224], [2224, 1668]], 265, Color::SPACE_GRAY, Platform::IOS)
     IPAD_MINI_4 ||= Frameit::Device.new("ipad-mini-4", "Apple iPad Mini 4", 2, [[1536, 2048], [2048, 1536]], 324, Color::SPACE_GRAY)
